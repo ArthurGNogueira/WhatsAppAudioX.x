@@ -9,7 +9,12 @@
     border: none;
     cursor: pointer;
   }
-  
+  #fastBtn{
+    fill:  #919191;
+    width: 20px; height: 20px;
+    margin-left: 2px;
+
+  }
   .dropdown {
     position: relative;
     display: inline-block;
@@ -22,6 +27,8 @@
     min-width: 60px;
     box-shadow: 0 2px 5px 0 rgba(var(--shadow-rgb),.26),0 2px 10px 0 rgba(var(--shadow-rgb),.16);
     z-index: 1;
+    right: 4px;
+    top: 44px
   }
   
   .dropdown-content a {
